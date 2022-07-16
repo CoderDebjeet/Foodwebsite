@@ -772,6 +772,19 @@ header .icons #menu-bars{
     .order form .inputBox .input{
         width:100%;
     }
-
+    .back-video{
+        position: absolute;
+       display:none;
+        
+    }
+    
+    .home .image img{
+        width:84%;
+        padding:1rem;
+        animation:float 3s linear infinite;
+      }
+      .home .image{
+        flex:1 0 10rem;
+      }
 }
 
