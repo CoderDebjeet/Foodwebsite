@@ -786,5 +786,12 @@ header .icons #menu-bars{
       .home .image{
         flex:1 0 10rem;
       }
+    @keyframes float{
+        0%, 100%{
+          transform: translateY(-8rem);
+        }
+        50%{
+          transform: translateY(1rem);
+        }
 }
 
